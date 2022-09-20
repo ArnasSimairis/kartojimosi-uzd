@@ -1,0 +1,42 @@
+*{
+    margin: 3px;
+}
+body{
+    background-color: rgb(209, 209, 209);
+}
+.box{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+}
+.line{
+    height: 1px;
+    background: black;
+}
+input{
+    display: table-cell;
+}
+label {
+     display: table-cell; 
+     text-align: right;
+}
+form{
+    display: table;
+}
+p{
+    display: table-row;
+}
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3px;
+}
+.style{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
